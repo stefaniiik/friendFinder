@@ -11,7 +11,8 @@ The goal was to create a Friend Finder app (essentially a dating app but for fri
 - JavaScript
 
 ## Troubles
-The /survey route does not work. Home page takes you to a dead page. My API friends route does not work. App doesn't open up in GitHUb or Heroku. 
+The /survey route does not work. Home page takes you to a dead page. My API friends route does not work. App doesn't open up in GitHUb or Heroku.
+App now working. 
 
 ## Authors
 Stefani Krautstrunk
