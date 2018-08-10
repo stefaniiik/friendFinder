@@ -1,6 +1,6 @@
 // A GET route with the url /api/friends. This will be used to display a JSON of all possible friends.
 // A POST routes /api/friends. This will be used to handle incoming survey results. This route will also be used to handle the compatibility logic.
-const path = require('path');
+// const path = require('path');
 //Load Data
 const friendList = require('../data/friends.js');
 
@@ -12,10 +12,10 @@ module.exports = function(app){
 
   app.post('/api/friends', function(req,res){
     //grabs the new friend's scores to compare with friends in friendList array
-    const newFriendScores = req.body.scores;
-    const scoresArray = [];
-    const friendCount = 0;
-    const bestMatch = 0;
+    let newFriendScores = req.body.scores;
+    let scoresArray = [];
+    let friendCount = 0;
+    let bestMatch = 0;
 
     //runs through all current friends in list
     for(var i=0; i<friendList.length; i++){

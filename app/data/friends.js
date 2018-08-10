@@ -2,7 +2,7 @@
   var friendList = [
     {
       name: 'Starlord',
-      profilePic:'https://goo.gl/images/j7sNoJ',
+      profilePic:'https://www.technobuffalo.com/wp-content/uploads/2017/02/guardians-of-the-galaxy-vol-2-007-470x310@2x.jpg',
       scores: [
         "4",
         "5",
